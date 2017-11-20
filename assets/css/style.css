@@ -271,3 +271,52 @@ h5{
 .portPic:hover h5{
     font-size:24px; 
 }
+
+
+@media screen and (max-width: 980px){
+    
+    #headDiv{
+        width:85%;
+    }
+    #content{
+        width:90%;
+    }
+
+    #main{
+        width:50%;
+        margin: 0 auto;
+    }
+
+    #CWM{
+        width:30%;
+        margin: 0 auto;
+    }
+
+    #icons{
+        display: flex;
+        width:80%;
+    }
+
+    .icon-link{
+        height: auto;
+        margin: 0 auto;
+        width:30%;
+    }
+
+    .icon{
+        width: 100%;
+        height:auto;
+    }
+
+    h2{
+        margin:auto;
+    }
+}
+
+@media screen and (max-width: 768px){
+    
+}
+
+@media screen and (max-width: 640px){
+    
+}
