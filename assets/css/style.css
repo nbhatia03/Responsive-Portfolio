@@ -251,6 +251,11 @@ textarea{
     max-height:225px;
 }
 
+.portPic>img{
+    height: 225px;
+    width: 275px;
+}
+
 .portPic:nth-child(odd){
     margin-right:auto;
 }
@@ -320,6 +325,21 @@ h5{
         float: none;
         width:100%;
     }
+
+    .portPic>img{
+        width:100%;
+        height:auto;
+    }
+
+    .portPic{
+        margin-bottom: 10%;
+        max-height: none;
+        height: auto;
+    }
+
+    h5{
+        bottom: 5%;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -359,8 +379,53 @@ h5{
         width:100%;
         box-sizing: border-box;
     }
+    .portPic{
+        width:47%;
+        margin-bottom: 6%;
+    }
 }
 
 @media screen and (max-width: 640px){
+    header{
+        height: auto;
+        position: static;
+        margin-bottom: 0;
+    }
     
+    #headDiv{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+    }
+
+    #name{
+        width:100%;
+    }
+
+    #name > h1{
+        padding:15px;
+        font-size: 28px;
+    }
+
+    #main>h1{
+        font-size: 28px;
+    }
+
+    nav{
+        float: none;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    nav > h4 > a{
+        padding: 0 20px;
+    }
+
+    #content{
+        margin-top:5%;
+    }
+
+    .portPic{
+        width: 100%;
+    }
 }
